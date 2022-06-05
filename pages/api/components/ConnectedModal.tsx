@@ -16,6 +16,7 @@ import {
   import { Badge } from '@chakra-ui/react';
   import { CHAIN_DICT } from './context/constant';
 import NetworkList from './NetworkList';
+import { useEffect,useState } from 'react';
 
 const ConnectedModal =() =>{
     const {
@@ -27,9 +28,7 @@ const ConnectedModal =() =>{
       } = useMetamask()
       
       const { isOpen, onOpen, onClose } = useDisclosure()
-
-      var network = CHAIN_DICT[chain];
-
+    
     return(
         
         <>
@@ -43,7 +42,6 @@ const ConnectedModal =() =>{
                   <NetworkList/>
                   <Text fontSize={"15px"} fontWeight={"bold"}>Balance : {balance}</Text>
                   <Text fontSize={"15px"} fontWeight={"bold"}>Connected Wallet : {currentWallet}</Text>
-                  <Text fontSize={"15px"} fontWeight={"bold"}>Current Network : {network}</Text>
               </ModalBody>
     
               <ModalFooter>
