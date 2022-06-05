@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Img, Text } from '@chakra-ui/react';
 
-export const Homepage =()=>{
+const Homepage =()=>{
     return(
         <Flex justifyContent={"center"} alignItems={"center"} bgColor={"black"} height={"100vh"} width={"100vw"} flexDirection={"row"} >
             <Box width={"70%"} height={"100vh"} bgGradient='linear(to-br, #0A0081, #000000)' >
@@ -14,3 +14,5 @@ export const Homepage =()=>{
         </Flex>
     )
 }
+
+export default Homepage
