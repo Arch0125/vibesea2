@@ -1,5 +1,4 @@
 import { Box, Button, Flex, Img, Text } from '@chakra-ui/react';
-import * as React from 'react';
 
 export const Homepage =()=>{
     return(
