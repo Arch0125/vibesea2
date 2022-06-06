@@ -12,7 +12,7 @@ const ExplorePage =() =>{
         <Navbar/>
         <Flex flexDirection={"row"} bgColor={"black"} height={"100vh"} width={"100vw"} >
             <Box textAlign={"start"} width={"40%"} height={"100vh"} >
-                <Box mt={"30px"} width={"80%"} height={"fit-content"} padding={"20px"} bgColor={"#171717"} borderRadius={"20px"} borderColor={"gray"} borderWidth={"1.5px"} >
+                <Box ml={"20px"} mt={"30px"} width={"80%"} height={"fit-content"} padding={"20px"} bgColor={"#171717"} borderRadius={"20px"} borderColor={"gray"} borderWidth={"1.5px"} >
                     <Text color={"white"} fontSize={"xl"} fontWeight={"bold"} >Your Profile</Text>
                     <Text mb={"10px"} color={"white"} mt={"10px"} >{walletAddress}</Text>
                     <Divider/>

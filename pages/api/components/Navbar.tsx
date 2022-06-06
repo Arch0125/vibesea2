@@ -15,7 +15,7 @@ const Navbar=() =>{
     return(
         <Flex px={"20px"} py={"15px"} flexDirection={"row"} width={"100vw"} bgColor={"black"} >
             <ButtonGroup>
-                <Button variant={"ghost"} colorScheme={"whiteAlpha"}>Home</Button>
+                <a href='../../Homepage' ><Button variant={"ghost"} colorScheme={"whiteAlpha"}>Home</Button></a>
                 <a href='../../ExplorePage' ><Button variant={"ghost"} colorScheme={"whiteAlpha"}>Explore</Button></a>
                 <Button variant={"ghost"} colorScheme={"whiteAlpha"}>Create</Button>
             </ButtonGroup>

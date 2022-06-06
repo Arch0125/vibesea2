@@ -1,7 +1,10 @@
 import { Box, Button, Flex, Img, Text } from '@chakra-ui/react';
+import Navbar from './api/components/Navbar';
 
 const Homepage =()=>{
     return(
+        <>
+        <Navbar/>
         <Flex justifyContent={"center"} alignItems={"center"} bgColor={"black"} height={"100vh"} width={"100vw"} flexDirection={"row"} >
             <Box width={"70%"} height={"100vh"} bgGradient='linear(to-br, #0A0081, #000000)' >
                 <Img src='https://svgshare.com/i/i3c.svg' width={"82%"} ml={"3vw"} />
@@ -12,6 +15,7 @@ const Homepage =()=>{
                 <Button fontFamily={"heading"} mt={"30px"} fontSize={"2xl"} colorScheme={"purple"} padding={"30px"} rounded={"2xl"} >Launch App</Button>
             </Box>
         </Flex>
+        </>
     )
 }
 

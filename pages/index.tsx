@@ -14,7 +14,7 @@ import {
 
 const Home: NextPage = () => {
   return (
-    <ExplorePage/>
+    <Homepage/>
   )
 }
 
