@@ -16,7 +16,7 @@ const Navbar=() =>{
         <Flex px={"20px"} py={"15px"} flexDirection={"row"} width={"100vw"} bgColor={"black"} >
             <ButtonGroup>
                 <Button variant={"ghost"} colorScheme={"whiteAlpha"}>Home</Button>
-                <Button variant={"ghost"} colorScheme={"whiteAlpha"}>Explore</Button>
+                <a href='../../ExplorePage' ><Button variant={"ghost"} colorScheme={"whiteAlpha"}>Explore</Button></a>
                 <Button variant={"ghost"} colorScheme={"whiteAlpha"}>Create</Button>
             </ButtonGroup>
             {isWalletConnected && walletAddress && chain && currentWallet ?(<><ConnectedModal/></>):<NotConnectedModal/>}
