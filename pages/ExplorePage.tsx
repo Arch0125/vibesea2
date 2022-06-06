@@ -2,6 +2,7 @@ import { Box, Divider, Flex, Text } from '@chakra-ui/react';
 import * as React from 'react';
 import { useMetamask } from './api/components/context/metamsk.context';
 import Navbar from './api/components/Navbar';
+import PostList from './api/components/PostList';
 
 const ExplorePage =() =>{
 
@@ -20,7 +21,7 @@ const ExplorePage =() =>{
                 </Box>
             </Box>
             <Box>
-
+                <PostList/>
             </Box>
         </Flex>
         </>
